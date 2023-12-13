@@ -1,0 +1,51 @@
+:root {
+ --color-brend-dark: #465929;
+ --color-brend: #819b57;
+ --color-dark: #31261a;
+ --color-light: #faf4ea;
+}
+
+body {
+ color: var(--color-dark);
+}
+
+ul {
+ list-style-type: none;
+}
+
+.button {
+ background: var(--color-brend);
+ border: 2px solid var(--color-brend);
+ border-radius: 8px;
+ color: var(--color-light) cursor pointer;
+}
+
+.button:hover {
+ background-color: transparent;
+ color: var(--color-brend-dark);
+}
+
+.link {
+ color: var(--color-light);
+}
+
+.link:hover {
+ color: var(--color-brend);
+}
+
+.zagolov {
+ color: var(--color-light);
+}
+
+.zagolov .accent {
+ color: var(--color-brend);
+}
+
+.perevagu {
+ background-color: var(--color-brend);
+ color: var(--color-light);
+}
+
+.section-title .accent {
+ color: var(--color-brend-dark);
+}
